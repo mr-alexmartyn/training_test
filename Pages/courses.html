@@ -11,84 +11,51 @@
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <!-- Навігаційне меню -->
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../Pages/courses.html">Courses</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <!-- Вміст сторінки -->
-      <div class="container">
-        <h2>Our Courses</h2>
-        <!-- Список курсів, на які користувач підписаний або в яких він бере участь -->
-        <ul class="courses_list">
-          <li class="item">
-            <img
-              src="../images/m1.png"
-              alt="m1-logo"
-              width="300px"
-              class="course_img"
-            />
-            <p class="item_text">Welcome to SportlogiQ</p>
-            <h3 class="item_title">Block 1:</h3>
+    <div class="header">
+      <!-- Навигация -->
+      <div class="navigation container">
+        <a href="../index.html"
+          ><img src="../images/logo.png" width="300px" class="head_logo"
+        /></a>
+        <ul class="nav_list">
+          <li class="nav-list__item">
+            <a href="../index.html" class="nav-list__link">Home</a>
           </li>
-          <li class="item">
-            <img
-              src="../images/m2.jpg"
-              alt="m1-logo"
-              width="300px"
-              class="course_img"
-            />
-            <p class="item_text">The Defensive Zone</p>
-            <h3 class="item_title">Block 2:</h3>
-          </li>
-          <li class="item">
-            <img
-              src="../images/m3.jpg"
-              alt="m1-logo"
-              width="300px"
-              class="course_img"
-            />
-            <p class="item_text">The Neutral Zone</p>
-            <h3 class="item_title">Block 3</h3>
-          </li>
-          <li class="item">
-            <img
-              src="../images/m4.png"
-              alt="m1-logo"
-              width="300px"
-              class="course_img"
-            />
-            <p class="item_text">The Offensive Zone</p>
-            <h3 class="item_title">Block 4:</h3>
-          </li>
-          <li class="item">
-            <img
-              src="../images/m5.png"
-              alt="m1-logo"
-              width="300px"
-              class="course_img"
-            />
-            <p class="item_text">Defensive Events & Miscellaneous</p>
-            <h3 class="item_title">Block 5:</h3>
-          </li>
-          <li class="item">
-            <img
-              src="../images/m6.jpg"
-              alt="m1-logo"
-              width="300px"
-              class="course_img"
-            />
-            <p class="item_text">Quality Assurance (QA)</p>
-            <h3 class="item_title">Block 6</h3>
+          <li class="nav-list__item">
+            <a href="../Pages/courses.html" class="nav-list__link">Courses</a>
           </li>
         </ul>
       </div>
+    </div>
+
+    <main class="container">
+      <!-- Вміст сторінки -->
+
+      <h2>Our Courses</h2>
+      <!-- Список курсів, на які користувач підписаний або в яких він бере участь -->
+      <ul class="courses_list">
+        <li class="course_item">
+          <a href="#" class="course_link">
+            <img src="../images/ckmgphvi70bg5ohw2bgzdjkns-pwhpa2.full.jpg" alt="" width="450px" class="course_img">
+          </img>
+          <h3 class="course_text">FOW</h3>
+          </a>
+        </li>
+        <li class="course_item">
+          <a href="#" class="course_link">
+            <img src="../images/ckfh50tpj07bc7rw2vo6u5ndn-image.full.png" alt="" width="450px" class="course_img">
+          </img>
+          <h3 class="course_text">TOI</h3>
+          </a>
+        </li>
+        <li class="course_item">
+          <a href="../Pages/eventing.html" class="course_link">
+            <img src="../images/ckckt18cv05j0mtw22bwl8vzy-shane.full.jpg" alt="" width="450px" class="course_img">
+          </img>
+          <h3 class="course_text">EVENTING</h3>
+          </a>
+        </li>
+      </ul>
     </main>
 
     <footer>

@@ -11,26 +11,44 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <!-- Навігаційне меню -->
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="./Pages/courses.html">Courses</a></li>
+    <div class="header">
+      <!-- Навигация -->
+      <div class="navigation container">
+        <a href="../index.html"
+          ><img src="../images/logo.png" width="300px" class="head_logo"
+        /></a>
+        <ul class="nav_list">
+          <li class="nav-list__item">
+            <a href="../index.html" class="nav-list__link">Home</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="../Pages/courses.html" class="nav-list__link">Courses</a>
+          </li>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </div>
 
-    <main>
-      <!-- Вміст сторінки -->
-      <section>
-        <div class="container">
-          <h1>Welcome to the Sportlogiq Hockey training platform</h1>
-          <p>Here you can find different courses to improve your skills.</p>
-        </div>
-      </section>
-    </main>
-
+    <!-- Вміст сторінки -->
+    <section class="hero_block">
+      <div class="container">
+        <section class="welcome_block">
+          <ul class="welcome-block__list">
+            <li>
+              <h1 class="head_title">
+                Welcome to the Sportlogiq Hockey user training platform
+              </h1>
+            </li>
+            <li><p class="head_text">Here you can improve your skills.</p></li>
+          </ul>
+          <video
+            src="./videos/Website-Video-Home-Page.mp4"
+            autoplay
+            width="600px"
+            class="welcome-block__video"
+          ></video>
+        </section>
+      </div>
+    </section>
     <footer>
       <p>Платформа навчання &copy; 2023. Усі права захищені.</p>
     </footer>
